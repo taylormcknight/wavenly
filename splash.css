@@ -139,6 +139,10 @@ input[type="submit"] {
   grid-gap: 1rem; }
 .features-section .feature-description, .features-section .feature-img-wrapper {
   grid-column: span 12; }
+.features-section.left-img div:nth-of-type(1) {
+  order: 2; }
+.features-section.left-img div:nth-of-type(2) {
+  order: 1; }
 .features-section a {
   text-decoration: none; }
 .features-section a:hover {
@@ -253,6 +257,10 @@ input[type="submit"] {
     font-size: 1.375rem; }
   .features-section .footnote {
     font-size: 1.125rem; }
+  .features-section.left-img div:nth-of-type(1) {
+    order: 1; }
+  .features-section.left-img div:nth-of-type(2) {
+    order: 2; }
 
   .wave-button {
     font-size: 1rem;

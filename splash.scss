@@ -171,6 +171,14 @@ input[type = "submit"] {
 	.feature-description, .feature-img-wrapper {
 		grid-column: span 12;
 	}
+	&.left-img {
+		div:nth-of-type(1) {
+	    	order: 2;
+	  	}
+		div:nth-of-type(2) {
+	    	order: 1;
+	  	}
+	}
 	a {
 		text-decoration: none;
 		&:hover {
@@ -305,6 +313,14 @@ input[type = "submit"] {
 		}
 		.footnote {
 			font-size: 1.125rem;
+		}
+		&.left-img {
+			div:nth-of-type(1) {
+		    	order: 1;
+		  	}
+			div:nth-of-type(2) {
+		    	order: 2;
+		  	}
 		}
 	}
 	.wave-button {
