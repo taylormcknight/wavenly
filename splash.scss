@@ -62,15 +62,14 @@ nav {
     padding: 0;
 	li {
 		font-weight: 600;
-		display: flex;
+		display: block;
 		margin-bottom: 1rem;
 		&::before {
 		    content: url(checkmark.svg);
 		    color: #fff;
 		    display: inline-block;
-		    font-size: 1.675rem;
 		    margin-right: .5rem;
-		    vertical-align: middle;
+		    vertical-align: top;
 		    width: 1.2em;
 		}
 	}
