@@ -75,6 +75,12 @@ nav {
 	}
 }
 
+// footnote
+.footnote {
+	font-size: .875rem;
+	font-style: italic;
+}
+
 // buttons
 .button {
 	font-size: .675rem;
@@ -299,7 +305,6 @@ input[type = "submit"] {
 		}
 		.footnote {
 			font-size: 1.125rem;
-			font-style: italic;
 		}
 	}
 	.wave-button {
