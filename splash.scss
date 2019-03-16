@@ -105,6 +105,9 @@ input[type = "submit"] {
 	text-decoration: none;
 	white-space: normal;
 	-webkit-transition: box-shadow 0.3s cubic-bezier(0.2,0.6,0.2,1),background-color 0.25s ease-out,color 0.25s ease-out;
+	&:hover {
+		cursor: pointer;
+	}
 	&.white {
 		background: #fff;
 		color: #000;
