@@ -1,0 +1,76 @@
+// nav bar
+nav {
+	border-bottom: solid 1px #e9ebee;
+	box-sizing: border-box;
+	display: flex;
+	padding: .875rem .5rem;
+	width: 100%;
+	logo {
+		box-sizing: border-box;
+		display: inline-block;
+		vertical-align: middle;
+		img {
+			height: 20px;
+		}
+	}
+	>ul {
+		display: flex;
+		font-size: .875rem;
+		font-weight: 600;
+		line-height: 30px;
+		margin: 0 0 0 auto;
+    	>li {
+    		margin-right: .5rem;
+    		&:last-of-type {
+    			margin: 0;
+    		}
+    		>a {
+	    		padding: .5rem;
+	    		border-radius: 20px;
+	    		&:hover {
+		    		background: #f5f6f7;
+		    	}
+		    	&.active {
+			    	background: #f5f6f7;
+			    	border-radius: 20px;
+					color: #007AFF;
+		    	}
+	    	}
+    	}
+    }
+}
+@media screen and (min-width: 40em) {
+	nav {
+		padding: .875rem 2rem;
+		logo {
+			img {
+				height: 20px;
+				margin-top: 4px;
+			}
+		}
+		>ul {
+			>li {
+				margin-right: 1.25rem;
+				>a {
+		    		padding: .875rem 1rem;
+		    	}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+/* 
+.nav-icon {
+	margin-top: 5px;
+	display: block;
+	height: 25px;
+	width: 25px;
+}*/
+    
