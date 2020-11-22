@@ -19,13 +19,10 @@ module.exports = {
           "sass-loader"],
       },
       {
-        test: /\.(png|jpg|gif)$/i,
+        test: /\.(gif|png|jpg|svg)(\?.*$|$)/,
         use: [
           {
             loader: 'url-loader',
-            options: {
-              limit: 8192,
-            },
           },
         ],
       },
@@ -37,14 +34,6 @@ module.exports = {
             options: {
               encoding: 'utf8',
             },
-          },
-        ],
-      },
-      {
-        test: /\.(png|jpe?g|gif)$/i,
-        use: [
-          {
-            loader: 'file-loader',
           },
         ],
       },

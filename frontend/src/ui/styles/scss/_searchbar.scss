@@ -1,12 +1,17 @@
 /* search bar */
 .search-wrapper {
-	background: #f5f6f7;
-	border-radius: 6px;
-	padding: 3rem 1.5rem 1.5rem 1.5rem;
+	background-image: url(../../media/wes-hicks-jr7bl8PVOfw-unsplash.jpg);
+	background-size: cover;
+	box-sizing: border-box;
+	color: #fff;
+	padding: 4rem 1.5rem 0 1.5rem;
+	height: 40vh;
+	text-shadow: .5px .5px #000;
 	header {
 		text-align: center;
 		h1 {
-			font-size: 2rem;
+			font-size: 2.25rem;
+			margin-bottom: 2rem;
 		}
 		.switch {
 			display: block;

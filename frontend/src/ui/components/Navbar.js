@@ -13,7 +13,7 @@ class Navbar extends Component {
   render() {
     return (
       <Router>
-      <div>
+      <div id="nav">
       <nav className="navigation">
         <logo>
           <Link className="logo" to="/">
