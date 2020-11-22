@@ -42,7 +42,12 @@ INSTALLED_APPS = [
     'vendors.apps.VendorsConfig',
     'reviews.apps.ReviewsConfig',
     'frontend',
+
+    # local
+    'users.apps.UsersConfig',
 ]
+
+AUTH_USER_MODEL = 'users.CustomUser'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
