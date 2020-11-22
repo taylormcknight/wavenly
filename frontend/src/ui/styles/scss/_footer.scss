@@ -1,8 +1,20 @@
 footer {
+	max-width: 1440px;
+	margin: 0 auto;
 	border-top: solid 1px #e9ebee;
 	padding: 1rem 2rem 2rem 2rem;
-	font-size: .875rem;
-	a {
-		text-decoration: underline;
+	li {
+		margin-bottom: 1rem;
+	}
+	.footer-contents {
+		justify-content: space-between;
+	}
+	.footer-baseline {
+		border-top: solid 1px #e9ebee;
+		font-size: .875rem;
+		li {
+			display: inline;
+			margin-right: .75rem;
+		}
 	}
 }

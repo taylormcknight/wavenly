@@ -14,7 +14,7 @@ class Main extends Component {
       <div id="main">
         <div className="search-wrapper">
           <header>
-            <h1>Reserve a cremation or green burial</h1>
+            <h1>Reserve a green burial</h1>
             <form className="search">
               <input type="search" placeholder="Search for a provider" />
             </form>

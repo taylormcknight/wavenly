@@ -23,7 +23,8 @@ class Navbar extends Component {
         </logo>
         <ul>
           <li>
-            <Link className="active" to="/">
+            <Link to="/">
+            Blog
             </Link>
           </li>
           <li className="dropdown">
