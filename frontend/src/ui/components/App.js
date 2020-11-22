@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { render } from "react-dom";
 import Navbar from './Navbar'
 import Footer from './Footer'
+import '../styles/scss/App.scss'
 
 class App extends Component {
   render() {
