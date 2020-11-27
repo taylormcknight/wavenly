@@ -1,55 +1,26 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
 import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
   Link
 } from "react-router-dom";
 
 class Footer extends Component {
   render() {
     return (
-      <Router>
-      <div id="footer">
+      <div className="footer-wrapper">
         <footer className="footer">
           <section className="footer-contents flex">
             <section className="footer-list">
-              <h4>Reserve a green burial</h4>
+              <h4>Green burial education</h4>
               <ul>
                 <li>
-                    <Link className="navbar-item" to="/green-burial-pricing">
-                    Pricing
+                    <Link className="navbar-item" to="/cremation-pricing">
+                    Green burial 101
                     </Link>
                 </li>
                 <li>
-                    <Link className="navbar-item" to="/green-burial-reviews">
-                    Reviews
-                    </Link>
-                </li>
-                <li>
-                    <Link className="navbar-item" to="/green-burial-stories">
-                    Stories
-                    </Link>
-                </li>
-              </ul>
-            </section>
-            <section className="footer-list">
-              <h4>Reserve a cremation</h4>
-              <ul>
-                <li>
-                    <Link className="navbar-item" to="/green-burial-pricing">
-                    Pricing
-                    </Link>
-                </li>
-                <li>
-                    <Link className="navbar-item" to="/green-burial-reviews">
-                    Reviews
-                    </Link>
-                </li>
-                <li>
-                    <Link className="navbar-item" to="/green-burial-stories">
-                    Stories
+                    <Link className="navbar-item" to="/cremation-stories">
+                    Personal stories
                     </Link>
                 </li>
               </ul>
@@ -58,7 +29,7 @@ class Footer extends Component {
               <h4>Businesses</h4>
               <ul>
                 <li>
-                    <Link className="navbar-item" to="/advertise">
+                    <Link className="navbar-item" to="/signup">
                     Claim your company page
                     </Link>
                 </li>
@@ -68,37 +39,37 @@ class Footer extends Component {
                     </Link>
                 </li>
                 <li>
-                    <Link className="navbar-item" to="/advertise">
+                    <Link className="navbar-item" to="/cx">
                     Revolutionize your customer experience
                     </Link>
                 </li>
                 <li>
-                    <Link className="navbar-item" to="/advertise">
+                    <Link className="navbar-item" to="/success-stories">
                     Business success stories
                     </Link>
                 </li>
                 <li>
-                    <Link className="navbar-item" to="/advertise">
+                    <Link className="navbar-item" to="/resource-center">
                     Resource center
                     </Link>
                 </li>
               </ul>
             </section>
             <section className="footer-list">
-              <h4>About</h4>
+              <h4>About Wavenly</h4>
               <ul>
                 <li>
-                    <Link className="navbar-item" to="/green-burial-pricing">
+                    <Link className="navbar-item" to="/company">
                     Company
                     </Link>
                 </li>
                 <li>
-                    <Link className="navbar-item" to="/green-burial-reviews">
+                    <Link className="navbar-item" to="/careers">
                     Careers
                     </Link>
                 </li>
                 <li>
-                    <Link className="navbar-item" to="/green-burial-stories">
+                    <Link className="navbar-item" to="/contact">
                     Contact
                     </Link>
                 </li>
@@ -111,12 +82,12 @@ class Footer extends Component {
                   © 2020 Wavenly, LLC. All rights reserved.
               </li>
               <li>
-                <Link to="/index" className="navbar-item">
+                <Link to="/index" className="navbar-item" to="/privacy">
                 Privacy
                 </Link>
               </li>
               <li>
-                <Link to="/index" className="navbar-item">
+                <Link to="/index" className="navbar-item" to="/terms">
                 Terms
                 </Link>
               </li>
@@ -124,7 +95,6 @@ class Footer extends Component {
           </section>
         </footer>
       </div>
-      </Router>
     );
   }
 }

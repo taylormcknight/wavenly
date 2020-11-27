@@ -1,6 +1,9 @@
 // nav bar
-nav {
+.nav-wrapper {
 	border-bottom: solid 1px #e9ebee;
+}
+nav {
+	
 	box-sizing: border-box;
 	display: flex;
 	padding: .875rem .5rem;
@@ -42,7 +45,7 @@ nav {
 }
 @media screen and (min-width: 40em) {
 	nav {
-		padding: .875rem 2rem;
+		padding: .875rem 0rem;
 		logo {
 			img {
 				height: 20px;

@@ -1,28 +1,24 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
-import CremationImg from '../media/services/cremation.jpg';
-import GreenBurialImg from '../media/services/green-burial.jpg';
-import AquamationImg from '../media/services/aquamation.jpg';
+import ConventionalCemeteryImg from '../media/services/conventional-cemetery.jpg';
+import NaturalBurialGroundImg from '../media/services/natural-burial-ground.jpg';
+import ConservationCemeteryImg from '../media/services/conservation-cemetery.jpg';
 
 import {
-  BrowserRouter as Router,
-  Switch,
-  Link,
-  Route
+  Link
 } from "react-router-dom";
 
 class ServiceCallout extends Component {
   render() {
     return (
-      <Router>
-        <div id="service-callout" style="max-width:1440px;">
+        <div id="service-callout">
           <section className="grid-wrapper">
             <ul className="grid photo-grid grid-3">
               <li className="card-media goal">
                 <Link to="#">
-                  <figure style={{backgroundImage: "url(" + CremationImg + ")" }}>
+                  <figure style={{backgroundImage: "url(" + ConventionalCemeteryImg + ")" }}>
                     <figcaption>
-                      <span className="card-title">Cremation</span>
+                      <span className="card-title">Conventional Cemeteries</span>
                       <span className="card-info">View providers</span>
                     </figcaption>
                   </figure>
@@ -30,9 +26,9 @@ class ServiceCallout extends Component {
               </li>
               <li className="card-media goal">
                 <Link to="#">
-                  <figure style={{backgroundImage: "url(" + GreenBurialImg + ")" }}>
+                  <figure style={{backgroundImage: "url(" + NaturalBurialGroundImg + ")" }}>
                     <figcaption>
-                      <span className="card-title">Green Burials</span>
+                      <span className="card-title">Natural Burial Grounds</span>
                       <span className="card-info">View providers</span>
                     </figcaption>
                   </figure>
@@ -40,9 +36,9 @@ class ServiceCallout extends Component {
               </li>
               <li className="card-media goal">
                 <Link to="#">
-                  <figure style={{backgroundImage: "url(" + AquamationImg + ")" }}>
+                  <figure style={{backgroundImage: "url(" + ConservationCemeteryImg + ")" }}>
                     <figcaption>
-                      <span className="card-title">Aquamations</span>
+                      <span className="card-title">Conservation Cemeteries</span>
                       <span className="card-info">View providers</span>
                     </figcaption>
                   </figure>
@@ -51,7 +47,6 @@ class ServiceCallout extends Component {
             </ul>
           </section>
         </div>
-      </Router>
     );
   }
 }
