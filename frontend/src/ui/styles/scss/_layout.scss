@@ -1,9 +1,11 @@
 #container {
 	transition: margin-left .5s;
 }
-.container {
+section, .container {
 	max-width: 1440px;
 	margin: 0 auto;
+}
+.container {
   	grid-template-columns: 350px auto;
   	grid-template-rows: auto 1fr auto;
 	&.hero-page {

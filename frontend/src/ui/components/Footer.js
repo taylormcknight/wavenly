@@ -29,16 +29,6 @@ class Footer extends Component {
               <h4>Businesses</h4>
               <ul>
                 <li>
-                    <Link className="navbar-item" to="/signup">
-                    Claim your company page
-                    </Link>
-                </li>
-                <li>
-                    <Link className="navbar-item" to="/advertise">
-                    Promote your company
-                    </Link>
-                </li>
-                <li>
                     <Link className="navbar-item" to="/cx">
                     Revolutionize your customer experience
                     </Link>
@@ -59,7 +49,7 @@ class Footer extends Component {
               <h4>About Wavenly</h4>
               <ul>
                 <li>
-                    <Link className="navbar-item" to="/company">
+                    <Link className="navbar-item" to="/about">
                     Company
                     </Link>
                 </li>

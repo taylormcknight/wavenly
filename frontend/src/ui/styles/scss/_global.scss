@@ -17,15 +17,15 @@ h1 {
 }
 h2 {
 	font-size: 1.5rem;
-	font-weight: 400;
 	margin: 2rem 0 .5rem 0;
 }
 h3 {
+	font-weight: 400;
 	font-size: 1.25rem;
 	margin: 1rem 0 .5rem 0;
 }
-p {
-	font-size: 1.125rem;
+p, li {
+	font-size: 1.25rem;
 	line-height: 1.6;
 	margin: .5rem 0 1.5rem 0;
 }
@@ -95,13 +95,6 @@ img {
 // header
 header {
 	margin-bottom: 2rem;
-	h1 {
-		margin-bottom: .5rem;
-	}
-	.sub-title {
-		font-size: 1.25rem;
-		margin: 0;
-	}
 }	
 
 // user headshot
@@ -176,7 +169,7 @@ header {
 		font-size: 2.5rem;
 		margin-bottom: .5rem;
 	}
-	h2, h3 {
+	h2 {
 		font-size: 1.5rem;
 	}
 	.header {
